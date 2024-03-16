@@ -1,0 +1,106 @@
+
+
+#header,#service,#footer{
+  margin-left: 50px;
+  text-align: center;
+}
+
+/* Header part starts */
+.headerRow{
+  height: 100px;
+  width: 1750px;
+   background-color: blue;
+   padding-top: 20px;
+}
+span{
+  font-size: large;
+  font-weight: 900;
+  color:#ffff;
+  padding-right: 15px;
+}
+span a{
+  color: #ffff;
+}
+
+/* Service part starts */
+.firstCol{
+  background-color: coral;
+  /* height: 250px;
+  width: 250px; */
+  padding-top: 33px;
+  float: left;
+}
+.firstCol img{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  
+}
+
+.secondCol{
+  background-color: rgb(142, 237, 127);
+  /* height: 250px;
+  width: 250px; */
+  padding-top: 33px;
+  float: left;
+}
+.secondCol img{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  
+}
+.thirdCol{
+  background-color: rgb(79, 107, 209);
+  height: 317px;
+  width: 250px;
+  padding-top: 33px;
+  float: left;
+}
+.thirdCol img{
+  height: 250px;
+  width: 240px;
+  object-fit: cover;
+  
+}
+
+.fourthCol{
+  background-color: rgb(211, 145, 1);
+  height: 250px;
+  width: 250px;
+  padding-top: 100px;
+  float: left;
+}
+.fourthCol img{
+  height: 200px;
+  width: 240px;
+  object-fit: cover;
+  
+}
+
+
+
+/* Footer part starts */
+#footer{
+  padding-top: 300px;
+
+  
+}
+.footerRow{
+  height: 200px;
+  width: 1750px;
+   background-color: powderblue;
+   padding-top: 100px;
+}
+.footerRow p{
+justify-content: center;
+
+}
+.footerRow h1{
+  color: #EB3812;
+}
+#footer img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
